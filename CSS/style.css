@@ -1,0 +1,266 @@
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(31, 201, 231);
+    background-image: url(../Imagens/background.jpg);
+    background-size: cover;
+}
+
+.container-header {
+    background-color: #000000ce;
+    text-align: center;
+}
+
+.container-header h1 {
+    color: rgb(255, 255, 255)
+}
+
+.container-main {
+   
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.links {
+    background-color: #343f4be5;
+    display: flex;
+    height: 4em;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 6em;
+    height: 1.8em;
+    font-weight: 600;
+    border-radius: 25px;
+    margin: 1em 0 0 auto;
+    transition: .30s;
+}
+
+.btn:hover{
+    background-color: rgb(31, 201, 231);
+    color: white;
+    transform: scale(1.2);
+}
+
+.btn-link {
+    height: 2.5em;
+    width: 10em;
+    font-weight: 600;
+    border-radius: 25px;
+    margin: 0 1em;
+    transition: .30s;
+}
+
+.btn-link:hover {
+    background-color: rgb(31, 201, 231);
+    color: white;
+    transform: scale(1.2);
+}
+
+.main-content {
+    display: flex;
+    height: 100%;
+}
+
+.resumo-lateral {
+    background-color: #343f4be5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.resumo-lateral img{
+    height: 35%;
+    border-radius: 50%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.resumo-lateral p {
+    margin: 1em auto;
+    text-align: justify;
+    width: 80%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #34b6f131;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.about p {
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 2em;
+    text-align: justify;
+    width: 80%;
+    font-size: 1.2em;
+}
+
+.res-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.formacao {
+    background-color: #34b6f131;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.formacao ul {
+    margin: 0 auto;
+}
+
+.formacao ul li {
+    list-style: circle;
+    font-weight: 600;
+    margin: 0.5em 0;
+}
+
+.formacao_topics{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgba(0, 64, 255, 0.8);;
+    border-radius: 25px;
+}
+
+.title_topics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    font-size: 1.4em;
+    color: rgba(0, 64, 255, 0.8);
+}
+
+.item_topics{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: rgba(0, 64, 255, 0.8);
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+.form-contact h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.item-contact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0.5em 0;
+}
+
+.item-contact textarea{
+    resize: none;
+}
+
+.lb {
+    display: flex;
+    width: 25%;
+    color: white;
+}
+
+.input{
+    display: flex;
+    width: 75%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    margin: 1em 0;
+}
+
+.card_pic{
+    width: 60%;
+    height: 100%;
+}
+
+.card_pic img{
+    border: 1px groove black; 
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    transition: .30s;
+}
+
+.card_pic img:hover{
+    transform: scale(1.2);
+    border: 1px solid rgb(31, 201, 231);
+}
+
+.card_description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+
+.card_description a{
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-bottom: 0.5em;
+    transition: .30s;
+}
+
+.card_description a:hover{
+    color: rgb(31, 201, 231);
+    transform: scale(1.4);
+}
+
+.card_description p{
+    text-align: justify;
+    margin: 0 1em;
+}
+
+
